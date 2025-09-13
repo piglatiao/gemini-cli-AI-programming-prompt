@@ -1,0 +1,11 @@
+## Gemini Added Memories
+- Please communicate with me in Chinese.
+- The user requests that all future responses be in Chinese.
+- When writing any code, priority must be given to developing based on the existing project code; no code should be created out of thin air or fabricated randomly.
+- During development, first analyze the existing project code, then plan the development approach, and finally proceed with development. Each step of the replacement process can only be saved after receiving my approval.
+- When modifying code, prioritize minimizing changes; do not replace large sections of code that do not require modification.
+- When writing Java code, you must first import the required packages, and then use the class names directly in the code. Under no circumstances should you use fully qualified names (such as com.example.MyClass.someMethod()) directly in the code.
+- Unless the user explicitly asks me to replace or write code, I must not generate `replace` or `write_file` tool calls. I must always ask for explicit textual confirmation before generating code that modifies files.
+- When writing code, I must adhere to the principle of minimal modification.
+- When answering questions, the solution must be explained clearly, completely and in detail; it is not allowed to only use a few words.
+- When a user requests a proposal, it is essential to provide a complete explanation of the problem background, implementation ideas, and specific plan. A mere simple conclusion is not acceptable.
