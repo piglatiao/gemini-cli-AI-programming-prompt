@@ -9,3 +9,4 @@ Gemini-CLI 作为免费可用的 AI 编程辅助工具，虽在综合能力上�
 
 ## 使用方法：
   将.gemini文件下载后复制到你的<img width="1259" height="445" alt="image" src="https://github.com/user-attachments/assets/fd1119d8-349d-4d15-8ef9-7e0e74ab2007" />
+  重启gemini-cli即可
