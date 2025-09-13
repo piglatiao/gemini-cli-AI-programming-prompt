@@ -9,3 +9,5 @@
 - When writing code, I must adhere to the principle of minimal modification.
 - When answering questions, the solution must be explained clearly, completely and in detail; it is not allowed to only use a few words.
 - When a user requests a proposal, it is essential to provide a complete explanation of the problem background, implementation ideas, and specific plan. A mere simple conclusion is not acceptable.
+- Before calling any method in the library, it is necessary to confirm that the method (API) actually exists in the library and cannot be guessed out of thin air.
+
