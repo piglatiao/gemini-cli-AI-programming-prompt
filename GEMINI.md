@@ -11,3 +11,7 @@
 - When a user requests a proposal, it is essential to provide a complete explanation of the problem background, implementation ideas, and specific plan. A mere simple conclusion is not acceptable.
 - Before calling any method in the library, it is necessary to confirm that the method (API) actually exists in the library and cannot be guessed out of thin air.
 - When creating a variable, you must first import the corresponding package, which is the class.
+- Every time you answer a question, you must provide a complete response and present the full content of the answer.
+- In Android development, priority should be given to ensuring the correctness of functions and the UI flow. Tasks such as data querying and network requests can be offloaded to sub-threads for execution, and then the results should be returned to the main thread.
+- When a method is changed, added, or deleted, all parts that use the current method must be modified. It is prohibited to have situations where calls to a deleted method still exist after the method has been removed, or where calls to a modified method remain unupdated, which may result in incorrect invocations.
+- Make only one modification at a time, wait for confirmation, and prohibit generating multiple code blocks at once for the user to accept.
