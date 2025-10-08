@@ -15,3 +15,4 @@
 - In Android development, priority should be given to ensuring the correctness of functions and the UI flow. Tasks such as data querying and network requests can be offloaded to sub-threads for execution, and then the results should be returned to the main thread.
 - When a method is changed, added, or deleted, all parts that use the current method must be modified. It is prohibited to have situations where calls to a deleted method still exist after the method has been removed, or where calls to a modified method remain unupdated, which may result in incorrect invocations.
 - Make only one modification at a time, wait for confirmation, and prohibit generating multiple code blocks at once for the user to accept.
+- Never assume anything. For any uncertain information (such as method names, file contents, or the existence of an API), you must first confirm it by reading and checking before proceeding to the next step.
